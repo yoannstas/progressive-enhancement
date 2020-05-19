@@ -1,0 +1,106 @@
+body{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    background: rgb(255,255,255);
+    background: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(187,187,245,1) 35%, rgba(0,212,255,1) 100%);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: navy;
+}
+
+img {
+    float: left;
+    position: relative;
+    width: 30vw;
+    margin-right: 50px;
+    margin-top: 10px;
+    border-radius: 5%;
+}
+
+nav {
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 130%;
+
+
+}
+
+header h1{
+    background:yellow;
+    padding:30px;
+    border-radius: 10px;
+}
+
+/* Table */
+table{
+    border: 1px;
+    text-align: left;
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+tr:nth-child(even){
+    background-color:darkgrey;
+}
+
+/* QUOTES */
+q{
+    display: block;
+    margin: 80px auto;
+    width:50%;
+    font-size:160%;
+    background-color: lightgray;
+    padding:30px;
+    text-align: left;
+    font-style: italic;
+    border-left-style: solid;
+    border-radius: 3px;
+}
+q.villagers{
+    border-left-color: #fdbb2d;
+    border-radius: 3px;
+    font-family: "Roboto Light";
+}
+
+q.farmer{
+    border-left-color: #22c1c3;
+    border-radius: 3px;
+    font-family: "Roboto Light";
+}
+
+strong.good{
+    color: lawngreen;
+    text-transform: uppercase;
+}
+
+strong.bad{
+    color: red;
+    text-transform: uppercase;
+}
+a:link {
+    color: aqua;
+}
+a:visited {
+    color: midnightblue;
+}
+a:hover {
+    color: cadetblue;
+}
+
+footer {
+    background-color: #22c1c3;
+    padding: 50px;
+    text-align: center;
+    font-family: arial, helvetica;
+}
